@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "stationx-frames",
+      "script": "npm run start",
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
