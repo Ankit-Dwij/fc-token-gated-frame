@@ -19,15 +19,15 @@ const DEFAULT = `
         <meta property="fc:frame:button:1" content="Claim" />
         <meta
           name="fc:frame:post_url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
         <meta
           name="of:post_url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
         <meta
           name="xmtp:frame:post-url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
       </head>
     </html>
@@ -56,15 +56,15 @@ const SUCCESS = `
           />
           <meta
             name="fc:frame:post_url"
-            content="${SERVER_URL}/v2"
+            content="${SERVER_URL}"
           />
           <meta
           name="of:post_url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
         <meta
           name="xmtp:frame:post-url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
         </head>
       </html>
@@ -93,15 +93,15 @@ const NO_FOLLOW_NO_CHEESE = `
           />
           <meta
             name="fc:frame:post_url"
-            content="${SERVER_URL}/v2"
+            content="${SERVER_URL}"
           />
           <meta
           name="of:post_url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
         <meta
           name="xmtp:frame:post-url"
-          content="${SERVER_URL}/v2"
+          content="${SERVER_URL}"
         />
         </head>
       </html>`;
