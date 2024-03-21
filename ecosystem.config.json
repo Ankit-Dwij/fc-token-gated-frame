@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "stationx-frames",
+      "name": "cheese-frames",
       "script": "npm run start",
       "autorestart": true,
       "watch": false,

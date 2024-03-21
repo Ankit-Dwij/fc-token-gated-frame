@@ -1,10 +1,10 @@
 const { SERVER_URL, S3_URL } = require("../constants");
-
 const DEFAULT = `
     <!DOCTYPE html>
     <html>
       <head>
         <meta charset="utf-8" />
+        <meta property="of:accepts:xmtp" content="2024-02-01" />
         <meta name="viewport" content="width=device-width" />
         <meta property="og:title" content="Frame token!" />
         <meta
@@ -21,6 +21,14 @@ const DEFAULT = `
           name="fc:frame:post_url"
           content="${SERVER_URL}/v2"
         />
+        <meta
+          name="of:post_url"
+          content="${SERVER_URL}/v2"
+        />
+        <meta
+          name="xmtp:frame:post-url"
+          content="${SERVER_URL}/v2"
+        />
       </head>
     </html>
     `;
@@ -30,6 +38,7 @@ const SUCCESS = `
       <html>
         <head>
           <meta charset="utf-8" />
+          <meta property="of:accepts:xmtp" content="2024-02-01" />
           <meta name="viewport" content="width=device-width" />
           <meta property="og:title" content="Success !" />
           <meta
@@ -49,6 +58,14 @@ const SUCCESS = `
             name="fc:frame:post_url"
             content="${SERVER_URL}/v2"
           />
+          <meta
+          name="of:post_url"
+          content="${SERVER_URL}/v2"
+        />
+        <meta
+          name="xmtp:frame:post-url"
+          content="${SERVER_URL}/v2"
+        />
         </head>
       </html>
     `;
@@ -58,6 +75,7 @@ const NO_FOLLOW_NO_CHEESE = `
       <html>
         <head>
           <meta charset="utf-8" />
+          <meta property="of:accepts:xmtp" content="2024-02-01" />
           <meta name="viewport" content="width=device-width" />
           <meta property="og:title" content="content" />
           <meta
@@ -77,6 +95,14 @@ const NO_FOLLOW_NO_CHEESE = `
             name="fc:frame:post_url"
             content="${SERVER_URL}/v2"
           />
+          <meta
+          name="of:post_url"
+          content="${SERVER_URL}/v2"
+        />
+        <meta
+          name="xmtp:frame:post-url"
+          content="${SERVER_URL}/v2"
+        />
         </head>
       </html>`;
 
@@ -85,6 +111,7 @@ const TRY_AGAIN_LATER = `
       <html>
         <head>
           <meta charset="utf-8" />
+          <meta property="of:accepts:xmtp" content="2024-02-01" />
           <meta name="viewport" content="width=device-width" />
           <meta property="og:title" content="Try again later !" />
           <meta

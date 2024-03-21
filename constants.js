@@ -1,3 +1,6 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
 const SERVER_URL = process.env.SERVER_URL;
 
 const NEYNAR_API_KEY = process.env.NEYNAR_API_KEY;
